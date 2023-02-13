@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import GeoView
+from .views_corto import GeoView
 
 urlpatterns = [
     path('geo/',GeoView.as_view(), name='geo_list'),
