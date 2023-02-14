@@ -4,5 +4,3 @@ from django.db import models
 class Geo(models.Model):
     lat = models.BigIntegerField()
     lon = models.BigIntegerField()
-    w = models.PositiveBigIntegerField()
-    h = models.PositiveBigIntegerField()
