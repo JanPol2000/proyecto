@@ -7,6 +7,8 @@ import json
 from collections import deque
 import math
 
+
+
 POINTS_VALUES_REAL = {
     1: [(19.669142152782285, -103.4850291181504),(5700, 1727)],
     2: [(19.668903636258346, -103.48515576597272),(5495, 1776)],
